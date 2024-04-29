@@ -1,33 +1,3 @@
-macro_screen_record: macro_screen_record{
-compatible = "zmk,behavior-macro";
-label = "macro_screen_record";
-#binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp LEFT_SHIFT>, <&kp NUMBER_5>;
-};
-macro_copy: macro_copy{
-compatible = "zmk,behavior-macro";
-label = "macro_copy";
-#binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp C>;
-};
-macro_paste: macro_paste{
-compatible = "zmk,behavior-macro";
-label = "macro_paste";
-#binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp V>;
-};
-macro_spotlight: macro_spotlight{
-compatible = "zmk,behavior-macro";
-label = "macro_spotlight";
-#binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp SPACE>;
-};
-macro_screen_snip: macro_screen_snip{
-compatible = "zmk,behavior-macro";
-label = "macro_screen_snip";
-#binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp LEFT_COMMAND>, <&kp LEFT_SHIFT>, <&kp NUMBER_4>;
-};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
