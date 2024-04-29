@@ -1,3 +1,9 @@
+macro_screen_record: macro_screen_record{
+compatible = "zmk,behavior-macro";
+label = "macro_screen_record";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp LEFT_SHIFT>, <&kp NUMBER_5>;
+};
 macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
